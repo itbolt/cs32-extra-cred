@@ -1,11 +1,11 @@
 #define _GNU_SOURCE
+#include <sched.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
 #include <assert.h>
 #include <pthread.h>
 #include <sched.h>
-#include <unistd.h>
 
 #include "filter.h"
 #include "signal.h"
